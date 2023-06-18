@@ -63,6 +63,11 @@
                     <td colspan="100"></td>
                 </tr>
             @endforeach
+            @if(count($servers) == 0)
+                <tr class="">
+                    <td colspan="100" class="text-center text-warning font-weight-bold" >There is no SSH server here</td>
+                </tr>
+            @endif
             </tbody>
         </table>
     </div>
