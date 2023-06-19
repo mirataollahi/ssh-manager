@@ -71,4 +71,6 @@
             </tbody>
         </table>
     </div>
+
+    @include('admin.layouts.window')
 @endsection

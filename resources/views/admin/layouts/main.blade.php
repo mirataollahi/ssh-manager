@@ -12,6 +12,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('admin-assets/table/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin-assets/css/win7.css') }}">
+
 
     <!-- Style -->
     <link rel="stylesheet" href="{{ asset('admin-assets/table/css/style.css') }}">
